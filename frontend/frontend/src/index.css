@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This removes all default browser spacing and centering */
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  display: block !important; /* Prevents center-flex defaults */
+  background-color: #f8fafc; /* Matches your UI background */
+}
+
+#root {
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+}
