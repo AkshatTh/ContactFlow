@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Trash2, Phone, Mail, User, Plus, Search, AlertCircle } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/contacts";
+const API_URL = "https://contactflow-4s5u.onrender.com/api/contacts";
 
 function App() {
   const [contacts, setContacts] = useState([]);
